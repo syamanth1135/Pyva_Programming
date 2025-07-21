@@ -1,0 +1,11 @@
+def while_example():
+    i = 0
+    while i < 5:
+        print(i)
+        i = i + 1
+    print("While loop completed")
+
+main {
+    print("Executing While Loop:")
+    while_example()
+}

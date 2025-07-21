@@ -1,0 +1,10 @@
+def calculate(a: int, b: int) -> int:
+    result = a + b
+    print(result)
+    return result
+
+main {
+    a = 12
+    b = 15
+    calculate(a, b)
+}

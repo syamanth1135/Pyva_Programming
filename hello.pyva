@@ -1,0 +1,11 @@
+def calculate(a: int, b: int) -> int:
+    return a + b
+
+main {
+    print("=== Dynamic Calculator ===")
+    
+    # Take input with prompts
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    print(calculate(a,b))
+}

@@ -1,0 +1,5 @@
+def Hello1(name:String):
+    print(name)
+main{
+    Hello1("name")
+}

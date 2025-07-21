@@ -1,0 +1,9 @@
+def for_example():
+    for i in range(1,5):
+        print("for loop",i)
+    print("For loop completed")
+
+main {
+    print("Executing For Loop:")
+    for_example()
+}

@@ -1,0 +1,10 @@
+def eligible(age: int) -> String:
+    if age < 18:
+        print("not eligible")
+    else:
+        print("eligible")
+
+main {
+    age = int(input("Enter age: "))
+    eligible(age)
+}

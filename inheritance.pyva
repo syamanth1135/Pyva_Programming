@@ -1,0 +1,11 @@
+def vehicle() -> String:
+    return "Vehicle moves"
+
+def car() -> String:
+    base = vehicle()
+    return base + " on roads"
+
+main {
+    result=car()
+    print(result)  
+}

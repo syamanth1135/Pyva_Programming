@@ -1,0 +1,21 @@
+def add(x:int,y:int)->int:
+    return x+y
+def sub(x:int,y:int)->int:
+    return x-y
+def mul(x:int,y:int)->int:
+    return x*y
+def display():
+    print("Welcome to pyva")
+def Strings(s1:String,s2:String s2)->void:
+    print("Combined strings are ",s1+s2)
+main{
+    x=int(input("Enter x"))
+    y=int(input("Enter y"))
+    print(add(x,y))
+    print(sub(x,y))
+    print(mul(x,y))
+    display()
+    s1=input("Enter String1")
+    s2=input("Enter String 2")
+    Strings(s1,s2)
+}

@@ -1,0 +1,10 @@
+def equal(s1:String,s2:String)->void:
+    if s1==s2:
+        print("Strings are equal")
+    else:
+        print("Strings are not equal")
+main{
+    s1=input("Enter String1 ")
+    s2=input("Enter String2 ")
+    equal(s1,s2)
+}

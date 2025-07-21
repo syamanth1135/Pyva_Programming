@@ -1,0 +1,7 @@
+def Strings(s1:String,s2:String)->String:
+    return s1+s2
+main{
+    s1=input("enter s1")
+    s2=input("Enter s2")
+    print(Strings(s1,s2))
+}
